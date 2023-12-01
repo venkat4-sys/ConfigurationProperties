@@ -8,10 +8,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  application:
-    name: INVENTORY-SERVICES
-  config:
-    import: optional:configserver:http://localhost:8080
+  
     
 eureka:
   client:
